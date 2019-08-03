@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>success</h1>
+    <!--使用thymeleaf的语法取数据-->
+        <!--将thymeleaf ,div里面的文本内容设置为-->
+    <div th:text="${hi}"></div>
+    <hr/>
+    <div id="div01" class="myDiv" th:id="${hi}" th:class="${hi}"
+         th:text="${hi}">这里是显示欢迎的信息</div>
+</body>
+</html>
